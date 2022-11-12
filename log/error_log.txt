@@ -1,0 +1,506 @@
+[11-Jul-2022 05:10:02 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method PDOAgent::resultSet() in /Users/simonchauke/Documents/courrsework/3280/lecture_9_demoStarter/03_FormAuth/inc/Utility/BooksDAO.class.php:51
+Stack trace:
+#0 /Users/simonchauke/Documents/courrsework/3280/lecture_9_demoStarter/03_FormAuth/userProfile.php(64): BooksDAO::getBooks()
+#1 {main}
+  thrown in /Users/simonchauke/Documents/courrsework/3280/lecture_9_demoStarter/03_FormAuth/inc/Utility/BooksDAO.class.php on line 51
+[11-Jul-2022 05:11:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Page::showAddForm() in /Users/simonchauke/Documents/courrsework/3280/lecture_9_demoStarter/03_FormAuth/userProfile.php:76
+Stack trace:
+#0 {main}
+  thrown in /Users/simonchauke/Documents/courrsework/3280/lecture_9_demoStarter/03_FormAuth/userProfile.php on line 76
+[11-Jul-2022 05:11:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Page::showAddForm() in /Users/simonchauke/Documents/courrsework/3280/lecture_9_demoStarter/03_FormAuth/userProfile.php:76
+Stack trace:
+#0 {main}
+  thrown in /Users/simonchauke/Documents/courrsework/3280/lecture_9_demoStarter/03_FormAuth/userProfile.php on line 76
+[11-Jul-2022 23:03:57 UTC] PHP Fatal error:  Uncaught Error: Class "Validate" not found in /Users/simonchauke/Documents/courrsework/3280/lecture_9_demoStarter/03_FormAuth/userRegister.php:35
+Stack trace:
+#0 {main}
+  thrown in /Users/simonchauke/Documents/courrsework/3280/lecture_9_demoStarter/03_FormAuth/userRegister.php on line 35
+[11-Jul-2022 23:07:25 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in /Users/simonchauke/Documents/courrsework/3280/lecture_9_demoStarter/03_FormAuth/inc/Utility/PDOAgent.class.php:73
+Stack trace:
+#0 /Users/simonchauke/Documents/courrsework/3280/lecture_9_demoStarter/03_FormAuth/inc/Utility/PDOAgent.class.php(73): PDOStatement->execute()
+#1 /Users/simonchauke/Documents/courrsework/3280/lecture_9_demoStarter/03_FormAuth/inc/Utility/UserDAO.class.php(62): PDOAgent->execute()
+#2 /Users/simonchauke/Documents/courrsework/3280/lecture_9_demoStarter/03_FormAuth/userRegister.php(54): UserDAO::createUser(Object(User))
+#3 {main}
+  thrown in /Users/simonchauke/Documents/courrsework/3280/lecture_9_demoStarter/03_FormAuth/inc/Utility/PDOAgent.class.php on line 73
+[11-Jul-2022 23:09:34 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in /Users/simonchauke/Documents/courrsework/3280/lecture_9_demoStarter/03_FormAuth/inc/Utility/PDOAgent.class.php:73
+Stack trace:
+#0 /Users/simonchauke/Documents/courrsework/3280/lecture_9_demoStarter/03_FormAuth/inc/Utility/PDOAgent.class.php(73): PDOStatement->execute()
+#1 /Users/simonchauke/Documents/courrsework/3280/lecture_9_demoStarter/03_FormAuth/inc/Utility/UserDAO.class.php(62): PDOAgent->execute()
+#2 /Users/simonchauke/Documents/courrsework/3280/lecture_9_demoStarter/03_FormAuth/userRegister.php(54): UserDAO::createUser(Object(User))
+#3 {main}
+  thrown in /Users/simonchauke/Documents/courrsework/3280/lecture_9_demoStarter/03_FormAuth/inc/Utility/PDOAgent.class.php on line 73
+[11-Jul-2022 23:18:58 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in /Users/simonchauke/Documents/courrsework/3280/lecture_9_demoStarter/03_FormAuth/inc/Utility/PDOAgent.class.php:73
+Stack trace:
+#0 /Users/simonchauke/Documents/courrsework/3280/lecture_9_demoStarter/03_FormAuth/inc/Utility/PDOAgent.class.php(73): PDOStatement->execute()
+#1 /Users/simonchauke/Documents/courrsework/3280/lecture_9_demoStarter/03_FormAuth/inc/Utility/UserDAO.class.php(63): PDOAgent->execute()
+#2 /Users/simonchauke/Documents/courrsework/3280/lecture_9_demoStarter/03_FormAuth/userRegister.php(55): UserDAO::createUser(Object(User))
+#3 {main}
+  thrown in /Users/simonchauke/Documents/courrsework/3280/lecture_9_demoStarter/03_FormAuth/inc/Utility/PDOAgent.class.php on line 73
+[11-Jul-2022 23:21:47 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in /Users/simonchauke/Documents/courrsework/3280/lecture_9_demoStarter/03_FormAuth/inc/Utility/PDOAgent.class.php:73
+Stack trace:
+#0 /Users/simonchauke/Documents/courrsework/3280/lecture_9_demoStarter/03_FormAuth/inc/Utility/PDOAgent.class.php(73): PDOStatement->execute()
+#1 /Users/simonchauke/Documents/courrsework/3280/lecture_9_demoStarter/03_FormAuth/inc/Utility/UserDAO.class.php(63): PDOAgent->execute()
+#2 /Users/simonchauke/Documents/courrsework/3280/lecture_9_demoStarter/03_FormAuth/userRegister.php(55): UserDAO::createUser(Object(User))
+#3 {main}
+  thrown in /Users/simonchauke/Documents/courrsework/3280/lecture_9_demoStarter/03_FormAuth/inc/Utility/PDOAgent.class.php on line 73
+[11-Jul-2022 23:23:34 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':full_name, :username, :password)' at line 1 in /Users/simonchauke/Documents/courrsework/3280/lecture_9_demoStarter/03_FormAuth/inc/Utility/PDOAgent.class.php:73
+Stack trace:
+#0 /Users/simonchauke/Documents/courrsework/3280/lecture_9_demoStarter/03_FormAuth/inc/Utility/PDOAgent.class.php(73): PDOStatement->execute()
+#1 /Users/simonchauke/Documents/courrsework/3280/lecture_9_demoStarter/03_FormAuth/inc/Utility/UserDAO.class.php(65): PDOAgent->execute()
+#2 /Users/simonchauke/Documents/courrsework/3280/lecture_9_demoStarter/03_FormAuth/userRegister.php(55): UserDAO::createUser(Object(User))
+#3 {main}
+  thrown in /Users/simonchauke/Documents/courrsework/3280/lecture_9_demoStarter/03_FormAuth/inc/Utility/PDOAgent.class.php on line 73
+[11-Jul-2022 23:28:02 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':full_name, :username, :password)' at line 1 in /Users/simonchauke/Documents/courrsework/3280/lecture_9_demoStarter/03_FormAuth/inc/Utility/PDOAgent.class.php:73
+Stack trace:
+#0 /Users/simonchauke/Documents/courrsework/3280/lecture_9_demoStarter/03_FormAuth/inc/Utility/PDOAgent.class.php(73): PDOStatement->execute()
+#1 /Users/simonchauke/Documents/courrsework/3280/lecture_9_demoStarter/03_FormAuth/inc/Utility/UserDAO.class.php(65): PDOAgent->execute()
+#2 /Users/simonchauke/Documents/courrsework/3280/lecture_9_demoStarter/03_FormAuth/userRegister.php(55): UserDAO::createUser(Object(User))
+#3 {main}
+  thrown in /Users/simonchauke/Documents/courrsework/3280/lecture_9_demoStarter/03_FormAuth/inc/Utility/PDOAgent.class.php on line 73
+[11-Jul-2022 23:31:50 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':full_name, :username, :password)' at line 1 in /Users/simonchauke/Documents/courrsework/3280/lecture_9_demoStarter/03_FormAuth/inc/Utility/PDOAgent.class.php:73
+Stack trace:
+#0 /Users/simonchauke/Documents/courrsework/3280/lecture_9_demoStarter/03_FormAuth/inc/Utility/PDOAgent.class.php(73): PDOStatement->execute()
+#1 /Users/simonchauke/Documents/courrsework/3280/lecture_9_demoStarter/03_FormAuth/inc/Utility/UserDAO.class.php(65): PDOAgent->execute()
+#2 /Users/simonchauke/Documents/courrsework/3280/lecture_9_demoStarter/03_FormAuth/userRegister.php(57): UserDAO::createUser(Object(User))
+#3 {main}
+  thrown in /Users/simonchauke/Documents/courrsework/3280/lecture_9_demoStarter/03_FormAuth/inc/Utility/PDOAgent.class.php on line 73
+[11-Jul-2022 23:39:10 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method PDO::lastInsertedId() in /Users/simonchauke/Documents/courrsework/3280/lecture_9_demoStarter/03_FormAuth/inc/Utility/PDOAgent.class.php:99
+Stack trace:
+#0 /Users/simonchauke/Documents/courrsework/3280/lecture_9_demoStarter/03_FormAuth/userRegister.php(27): PDOAgent->lastInsertedId()
+#1 {main}
+  thrown in /Users/simonchauke/Documents/courrsework/3280/lecture_9_demoStarter/03_FormAuth/inc/Utility/PDOAgent.class.php on line 99
+[11-Jul-2022 23:43:02 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':full_name, :username, :password)' at line 1 in /Users/simonchauke/Documents/courrsework/3280/lecture_9_demoStarter/03_FormAuth/inc/Utility/PDOAgent.class.php:73
+Stack trace:
+#0 /Users/simonchauke/Documents/courrsework/3280/lecture_9_demoStarter/03_FormAuth/inc/Utility/PDOAgent.class.php(73): PDOStatement->execute()
+#1 /Users/simonchauke/Documents/courrsework/3280/lecture_9_demoStarter/03_FormAuth/inc/Utility/UserDAO.class.php(66): PDOAgent->execute()
+#2 /Users/simonchauke/Documents/courrsework/3280/lecture_9_demoStarter/03_FormAuth/userRegister.php(59): UserDAO::createUser(Object(User))
+#3 {main}
+  thrown in /Users/simonchauke/Documents/courrsework/3280/lecture_9_demoStarter/03_FormAuth/inc/Utility/PDOAgent.class.php on line 73
+[11-Jul-2022 23:48:47 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':full_name, :username, :password)' at line 1 in /Users/simonchauke/Documents/courrsework/3280/lecture_9_demoStarter/03_FormAuth/inc/Utility/PDOAgent.class.php:73
+Stack trace:
+#0 /Users/simonchauke/Documents/courrsework/3280/lecture_9_demoStarter/03_FormAuth/inc/Utility/PDOAgent.class.php(73): PDOStatement->execute()
+#1 /Users/simonchauke/Documents/courrsework/3280/lecture_9_demoStarter/03_FormAuth/inc/Utility/UserDAO.class.php(68): PDOAgent->execute()
+#2 /Users/simonchauke/Documents/courrsework/3280/lecture_9_demoStarter/03_FormAuth/userRegister.php(59): UserDAO::createUser(Object(User))
+#3 {main}
+  thrown in /Users/simonchauke/Documents/courrsework/3280/lecture_9_demoStarter/03_FormAuth/inc/Utility/PDOAgent.class.php on line 73
+[11-Jul-2022 23:54:53 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':full_name, :username, :password)' at line 1 in /Users/simonchauke/Documents/courrsework/3280/lecture_9_demoStarter/03_FormAuth/inc/Utility/PDOAgent.class.php:73
+Stack trace:
+#0 /Users/simonchauke/Documents/courrsework/3280/lecture_9_demoStarter/03_FormAuth/inc/Utility/PDOAgent.class.php(73): PDOStatement->execute()
+#1 /Users/simonchauke/Documents/courrsework/3280/lecture_9_demoStarter/03_FormAuth/inc/Utility/UserDAO.class.php(68): PDOAgent->execute()
+#2 /Users/simonchauke/Documents/courrsework/3280/lecture_9_demoStarter/03_FormAuth/userRegister.php(59): UserDAO::createUser(Object(User))
+#3 {main}
+  thrown in /Users/simonchauke/Documents/courrsework/3280/lecture_9_demoStarter/03_FormAuth/inc/Utility/PDOAgent.class.php on line 73
+[12-Jul-2022 03:36:47 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':full_name, :username, :password)' at line 1 in /Users/simonchauke/Documents/courrsework/3280/lecture_9_demoStarter/03_FormAuth/inc/Utility/PDOAgent.class.php:73
+Stack trace:
+#0 /Users/simonchauke/Documents/courrsework/3280/lecture_9_demoStarter/03_FormAuth/inc/Utility/PDOAgent.class.php(73): PDOStatement->execute()
+#1 /Users/simonchauke/Documents/courrsework/3280/lecture_9_demoStarter/03_FormAuth/inc/Utility/UserDAO.class.php(68): PDOAgent->execute()
+#2 /Users/simonchauke/Documents/courrsework/3280/lecture_9_demoStarter/03_FormAuth/userRegister.php(59): UserDAO::createUser(Object(User))
+#3 {main}
+  thrown in /Users/simonchauke/Documents/courrsework/3280/lecture_9_demoStarter/03_FormAuth/inc/Utility/PDOAgent.class.php on line 73
+[12-Jul-2022 03:55:31 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method PDO::lastInsertedId() in /Users/simonchauke/Documents/courrsework/3280/lecture_9_demoStarter/03_FormAuth/inc/Utility/PDOAgent.class.php:99
+Stack trace:
+#0 /Users/simonchauke/Documents/courrsework/3280/lecture_9_demoStarter/03_FormAuth/inc/Utility/UserDAO.class.php(75): PDOAgent->lastInsertedId()
+#1 /Users/simonchauke/Documents/courrsework/3280/lecture_9_demoStarter/03_FormAuth/userRegister.php(59): UserDAO::createUser(Object(User))
+#2 {main}
+  thrown in /Users/simonchauke/Documents/courrsework/3280/lecture_9_demoStarter/03_FormAuth/inc/Utility/PDOAgent.class.php on line 99
+[16-Jul-2022 10:06:34 UTC] PHP Fatal error:  Uncaught TypeError: Page::showUserDetails(): Argument #1 ($u) must be of type User, bool given, called in /Applications/MAMP/htdocs/lecture_9_demoStarter/03_FormAuth/userProfile.php on line 21 and defined in /Applications/MAMP/htdocs/lecture_9_demoStarter/03_FormAuth/inc/Entity/Page.class.php:34
+Stack trace:
+#0 /Applications/MAMP/htdocs/lecture_9_demoStarter/03_FormAuth/userProfile.php(21): Page::showUserDetails(false)
+#1 {main}
+  thrown in /Applications/MAMP/htdocs/lecture_9_demoStarter/03_FormAuth/inc/Entity/Page.class.php on line 34
+[18-Jul-2022 06:31:53 Europe/Berlin] PHP Warning:  require_once(inc/cofig.inc.php): failed to open stream: No such file or directory in C:\coursework\LinkedPHP\lec 9 demo\03_FormAuth\inc\Entity\Page.class.php on line 2
+[18-Jul-2022 06:31:53 Europe/Berlin] PHP Stack trace:
+[18-Jul-2022 06:31:53 Europe/Berlin] PHP   1. {main}() C:\coursework\LinkedPHP\lec 9 demo\03_FormAuth\userLogin.php:0
+[18-Jul-2022 06:31:53 Europe/Berlin] PHP   2. require_once() C:\coursework\LinkedPHP\lec 9 demo\03_FormAuth\userLogin.php:5
+[18-Jul-2022 06:31:53 Europe/Berlin] PHP Fatal error:  require_once(): Failed opening required 'inc/cofig.inc.php' (include_path='C:\xampp\php\PEAR') in C:\coursework\LinkedPHP\lec 9 demo\03_FormAuth\inc\Entity\Page.class.php on line 2
+[18-Jul-2022 06:31:53 Europe/Berlin] PHP Stack trace:
+[18-Jul-2022 06:31:53 Europe/Berlin] PHP   1. {main}() C:\coursework\LinkedPHP\lec 9 demo\03_FormAuth\userLogin.php:0
+[18-Jul-2022 06:31:53 Europe/Berlin] PHP   2. require_once() C:\coursework\LinkedPHP\lec 9 demo\03_FormAuth\userLogin.php:5
+[18-Jul-2022 06:33:01 Europe/Berlin] PHP Warning:  require_once(/inc/config.inc.php): failed to open stream: No such file or directory in C:\coursework\LinkedPHP\lec 9 demo\03_FormAuth\inc\Utility\UserDAO.class.php on line 2
+[18-Jul-2022 06:33:01 Europe/Berlin] PHP Stack trace:
+[18-Jul-2022 06:33:01 Europe/Berlin] PHP   1. {main}() C:\coursework\LinkedPHP\lec 9 demo\03_FormAuth\userLogin.php:0
+[18-Jul-2022 06:33:01 Europe/Berlin] PHP   2. require_once() C:\coursework\LinkedPHP\lec 9 demo\03_FormAuth\userLogin.php:9
+[18-Jul-2022 06:33:01 Europe/Berlin] PHP Fatal error:  require_once(): Failed opening required '/inc/config.inc.php' (include_path='C:\xampp\php\PEAR') in C:\coursework\LinkedPHP\lec 9 demo\03_FormAuth\inc\Utility\UserDAO.class.php on line 2
+[18-Jul-2022 06:33:01 Europe/Berlin] PHP Stack trace:
+[18-Jul-2022 06:33:01 Europe/Berlin] PHP   1. {main}() C:\coursework\LinkedPHP\lec 9 demo\03_FormAuth\userLogin.php:0
+[18-Jul-2022 06:33:01 Europe/Berlin] PHP   2. require_once() C:\coursework\LinkedPHP\lec 9 demo\03_FormAuth\userLogin.php:9
+[18-Jul-2022 06:34:03 Europe/Berlin] PHP Warning:  require_once(/inc/config.inc.php): failed to open stream: No such file or directory in C:\coursework\LinkedPHP\lec 9 demo\03_FormAuth\inc\Utility\UserDAO.class.php on line 2
+[18-Jul-2022 06:34:03 Europe/Berlin] PHP Stack trace:
+[18-Jul-2022 06:34:03 Europe/Berlin] PHP   1. {main}() C:\coursework\LinkedPHP\lec 9 demo\03_FormAuth\userLogin.php:0
+[18-Jul-2022 06:34:03 Europe/Berlin] PHP   2. require_once() C:\coursework\LinkedPHP\lec 9 demo\03_FormAuth\userLogin.php:9
+[18-Jul-2022 06:34:03 Europe/Berlin] PHP Fatal error:  require_once(): Failed opening required '/inc/config.inc.php' (include_path='C:\xampp\php\PEAR') in C:\coursework\LinkedPHP\lec 9 demo\03_FormAuth\inc\Utility\UserDAO.class.php on line 2
+[18-Jul-2022 06:34:03 Europe/Berlin] PHP Stack trace:
+[18-Jul-2022 06:34:03 Europe/Berlin] PHP   1. {main}() C:\coursework\LinkedPHP\lec 9 demo\03_FormAuth\userLogin.php:0
+[18-Jul-2022 06:34:03 Europe/Berlin] PHP   2. require_once() C:\coursework\LinkedPHP\lec 9 demo\03_FormAuth\userLogin.php:9
+[18-Jul-2022 06:36:29 Europe/Berlin] PHP Warning:  require_once(inc/Utility/Validate.class.php): failed to open stream: No such file or directory in C:\coursework\LinkedPHP\lec 9 demo\03_FormAuth\userResetPassword.php on line 11
+[18-Jul-2022 06:36:29 Europe/Berlin] PHP Stack trace:
+[18-Jul-2022 06:36:29 Europe/Berlin] PHP   1. {main}() C:\coursework\LinkedPHP\lec 9 demo\03_FormAuth\userResetPassword.php:0
+[18-Jul-2022 06:36:29 Europe/Berlin] PHP Fatal error:  require_once(): Failed opening required 'inc/Utility/Validate.class.php' (include_path='C:\xampp\php\PEAR') in C:\coursework\LinkedPHP\lec 9 demo\03_FormAuth\userResetPassword.php on line 11
+[18-Jul-2022 06:36:29 Europe/Berlin] PHP Stack trace:
+[18-Jul-2022 06:36:29 Europe/Berlin] PHP   1. {main}() C:\coursework\LinkedPHP\lec 9 demo\03_FormAuth\userResetPassword.php:0
+[18-Jul-2022 06:43:18 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'full_name' in 'field list' in C:\coursework\LinkedPHP\lec 9 demo\03_FormAuth\inc\Utility\PDOAgent.class.php:73
+Stack trace:
+#0 C:\coursework\LinkedPHP\lec 9 demo\03_FormAuth\inc\Utility\PDOAgent.class.php(73): PDOStatement->execute()
+#1 C:\coursework\LinkedPHP\lec 9 demo\03_FormAuth\inc\Utility\UserDAO.class.php(69): PDOAgent->execute()
+#2 C:\coursework\LinkedPHP\lec 9 demo\03_FormAuth\userRegister.php(57): UserDAO::createUser(Object(User))
+#3 {main}
+  thrown in C:\coursework\LinkedPHP\lec 9 demo\03_FormAuth\inc\Utility\PDOAgent.class.php on line 73
+[18-Jul-2022 06:47:49 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'full_name' in 'field list' in C:\coursework\LinkedPHP\lec 9 demo\03_FormAuth\inc\Utility\PDOAgent.class.php:73
+Stack trace:
+#0 C:\coursework\LinkedPHP\lec 9 demo\03_FormAuth\inc\Utility\PDOAgent.class.php(73): PDOStatement->execute()
+#1 C:\coursework\LinkedPHP\lec 9 demo\03_FormAuth\inc\Utility\UserDAO.class.php(69): PDOAgent->execute()
+#2 C:\coursework\LinkedPHP\lec 9 demo\03_FormAuth\userRegister.php(57): UserDAO::createUser(Object(User))
+#3 {main}
+  thrown in C:\coursework\LinkedPHP\lec 9 demo\03_FormAuth\inc\Utility\PDOAgent.class.php on line 73
+[18-Jul-2022 06:48:49 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on string in C:\coursework\LinkedPHP\lec 9 demo\03_FormAuth\inc\Utility\PDOAgent.class.php:46
+Stack trace:
+#0 C:\coursework\LinkedPHP\lec 9 demo\03_FormAuth\inc\Utility\UserDAO.class.php(81): PDOAgent->query('SELECT id FROM ...')
+#1 C:\coursework\LinkedPHP\lec 9 demo\03_FormAuth\userRegister.php(30): UserDAO::checkDuplicateUser('simon')
+#2 {main}
+  thrown in C:\coursework\LinkedPHP\lec 9 demo\03_FormAuth\inc\Utility\PDOAgent.class.php on line 46
+[18-Jul-2022 06:49:49 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method PDO::lastInsertedId() in C:\coursework\LinkedPHP\lec 9 demo\03_FormAuth\inc\Utility\PDOAgent.class.php:99
+Stack trace:
+#0 C:\coursework\LinkedPHP\lec 9 demo\03_FormAuth\inc\Utility\UserDAO.class.php(74): PDOAgent->lastInsertedId()
+#1 C:\coursework\LinkedPHP\lec 9 demo\03_FormAuth\userRegister.php(57): UserDAO::createUser(Object(User))
+#2 {main}
+  thrown in C:\coursework\LinkedPHP\lec 9 demo\03_FormAuth\inc\Utility\PDOAgent.class.php on line 99
+[18-Jul-2022 06:50:54 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method PDO::lastInsertedId() in C:\coursework\LinkedPHP\lec 9 demo\03_FormAuth\inc\Utility\PDOAgent.class.php:99
+Stack trace:
+#0 C:\coursework\LinkedPHP\lec 9 demo\03_FormAuth\inc\Utility\UserDAO.class.php(108): PDOAgent->lastInsertedId()
+#1 C:\coursework\LinkedPHP\lec 9 demo\03_FormAuth\userResetPassword.php(57): UserDAO::resetPassword('simon', 'badchild')
+#2 {main}
+  thrown in C:\coursework\LinkedPHP\lec 9 demo\03_FormAuth\inc\Utility\PDOAgent.class.php on line 99
+[27-Jul-2022 01:29:19 Europe/Berlin] PHP Warning:  require_once(inc/Entity/functions.php): failed to open stream: No such file or directory in C:\coursework\LinkedPHP\project-php\alpha\activity.php on line 12
+[27-Jul-2022 01:29:19 Europe/Berlin] PHP Stack trace:
+[27-Jul-2022 01:29:19 Europe/Berlin] PHP   1. {main}() C:\coursework\LinkedPHP\project-php\alpha\activity.php:0
+[27-Jul-2022 01:29:19 Europe/Berlin] PHP Fatal error:  require_once(): Failed opening required 'inc/Entity/functions.php' (include_path='C:\xampp\php\PEAR') in C:\coursework\LinkedPHP\project-php\alpha\activity.php on line 12
+[27-Jul-2022 01:29:19 Europe/Berlin] PHP Stack trace:
+[27-Jul-2022 01:29:19 Europe/Berlin] PHP   1. {main}() C:\coursework\LinkedPHP\project-php\alpha\activity.php:0
+[27-Jul-2022 01:30:07 Europe/Berlin] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9000 (from REMOTE_ADDR HTTP header), 127.0.0.1:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[27-Jul-2022 01:30:07 Europe/Berlin] PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':id  AND a.displayed = 1' at line 10 in C:\coursework\LinkedPHP\project-php\alpha\inc\Utility\PDOAgent.class.php:73
+Stack trace:
+#0 C:\coursework\LinkedPHP\project-php\alpha\inc\Utility\PDOAgent.class.php(73): PDOStatement->execute()
+#1 C:\coursework\LinkedPHP\project-php\alpha\inc\Utility\ActivityDAO.class.php(127): PDOAgent->execute()
+#2 C:\coursework\LinkedPHP\project-php\alpha\activity.php(24): ActivityDAO::getActivityDetail()
+#3 {main}
+[27-Jul-2022 01:30:33 Europe/Berlin] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9000 (from REMOTE_ADDR HTTP header), 127.0.0.1:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[27-Jul-2022 01:30:33 Europe/Berlin] PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':id  AND a.displayed = 1' at line 10 in C:\coursework\LinkedPHP\project-php\alpha\inc\Utility\PDOAgent.class.php:73
+Stack trace:
+#0 C:\coursework\LinkedPHP\project-php\alpha\inc\Utility\PDOAgent.class.php(73): PDOStatement->execute()
+#1 C:\coursework\LinkedPHP\project-php\alpha\inc\Utility\ActivityDAO.class.php(127): PDOAgent->execute()
+#2 C:\coursework\LinkedPHP\project-php\alpha\activity.php(24): ActivityDAO::getActivityDetail()
+#3 {main}
+[27-Jul-2022 01:32:23 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':id  AND a.displayed = 1' at line 10 in C:\coursework\LinkedPHP\project-php\alpha\inc\Utility\PDOAgent.class.php:73
+Stack trace:
+#0 C:\coursework\LinkedPHP\project-php\alpha\inc\Utility\PDOAgent.class.php(73): PDOStatement->execute()
+#1 C:\coursework\LinkedPHP\project-php\alpha\inc\Utility\ActivityDAO.class.php(127): PDOAgent->execute()
+#2 C:\coursework\LinkedPHP\project-php\alpha\activity.php(24): ActivityDAO::getActivityDetail()
+#3 {main}
+  thrown in C:\coursework\LinkedPHP\project-php\alpha\inc\Utility\PDOAgent.class.php on line 73
+[27-Jul-2022 02:04:40 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class 'CategoryDAO' not found in C:\coursework\LinkedPHP\project-php\alpha\activity.php:25
+Stack trace:
+#0 {main}
+  thrown in C:\coursework\LinkedPHP\project-php\alpha\activity.php on line 25
+[27-Jul-2022 02:06:08 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class 'CategoryDAO' not found in C:\coursework\LinkedPHP\project-php\alpha\activity.php:22
+Stack trace:
+#0 {main}
+  thrown in C:\coursework\LinkedPHP\project-php\alpha\activity.php on line 22
+[27-Jul-2022 02:06:10 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class 'CategoryDAO' not found in C:\coursework\LinkedPHP\project-php\alpha\activity.php:22
+Stack trace:
+#0 {main}
+  thrown in C:\coursework\LinkedPHP\project-php\alpha\activity.php on line 22
+[27-Jul-2022 02:06:14 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class 'CategoryDAO' not found in C:\coursework\LinkedPHP\project-php\alpha\activity.php:22
+Stack trace:
+#0 {main}
+  thrown in C:\coursework\LinkedPHP\project-php\alpha\activity.php on line 22
+[27-Jul-2022 02:06:24 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class 'CategoryDAO' not found in C:\coursework\LinkedPHP\project-php\alpha\activity.php:22
+Stack trace:
+#0 {main}
+  thrown in C:\coursework\LinkedPHP\project-php\alpha\activity.php on line 22
+[27-Jul-2022 02:08:46 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: Argument 2 passed to Page::header() must be an instance of Category, array given, called in C:\coursework\LinkedPHP\project-php\alpha\activity.php on line 31 and defined in C:\coursework\LinkedPHP\project-php\alpha\inc\Entity\Page.class.php:8
+Stack trace:
+#0 C:\coursework\LinkedPHP\project-php\alpha\activity.php(31): Page::header(Object(Activity), Array)
+#1 {main}
+  thrown in C:\coursework\LinkedPHP\project-php\alpha\inc\Entity\Page.class.php on line 8
+[27-Jul-2022 02:10:01 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function getDescription() on array in C:\coursework\LinkedPHP\project-php\alpha\inc\Entity\Page.class.php:19
+Stack trace:
+#0 C:\coursework\LinkedPHP\project-php\alpha\activity.php(31): Page::header(Object(Activity), Array)
+#1 {main}
+  thrown in C:\coursework\LinkedPHP\project-php\alpha\inc\Entity\Page.class.php on line 19
+[27-Jul-2022 02:12:41 Europe/Berlin] PHP Fatal error:  Uncaught ErrorException: Undefined property: Activity::$category_id in C:\coursework\LinkedPHP\project-php\alpha\activity.php:44
+Stack trace:
+#0 C:\coursework\LinkedPHP\project-php\alpha\activity.php(44): handle_error(8, 'Undefined prope...', 'C:\\coursework\\L...', 44, Array)
+#1 {main}
+  thrown in C:\coursework\LinkedPHP\project-php\alpha\activity.php on line 44
+[27-Jul-2022 02:27:11 Europe/Berlin] PHP Fatal error:  Uncaught ErrorException: Undefined property: Activity::$categoryid in C:\coursework\LinkedPHP\project-php\alpha\activity.php:46
+Stack trace:
+#0 C:\coursework\LinkedPHP\project-php\alpha\activity.php(46): handle_error(8, 'Undefined prope...', 'C:\\coursework\\L...', 46, Array)
+#1 {main}
+  thrown in C:\coursework\LinkedPHP\project-php\alpha\activity.php on line 46
+[27-Jul-2022 02:30:07 Europe/Berlin] PHP Fatal error:  Uncaught Error: Cannot access private property Activity::$categoryID in C:\coursework\LinkedPHP\project-php\alpha\activity.php:46
+Stack trace:
+#0 {main}
+  thrown in C:\coursework\LinkedPHP\project-php\alpha\activity.php on line 46
+[27-Jul-2022 08:21:40 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function bindValue() on string in C:\coursework\LinkedPHP\project-php\alpha\inc\Utility\PDOAgent.class.php:67
+Stack trace:
+#0 C:\coursework\LinkedPHP\project-php\alpha\inc\Utility\CategoryDAO.class.php(23): PDOAgent->bind(':id', 1)
+#1 C:\coursework\LinkedPHP\project-php\alpha\category.php(29): CategoryDAO::getCategory(1)
+#2 {main}
+  thrown in C:\coursework\LinkedPHP\project-php\alpha\inc\Utility\PDOAgent.class.php on line 67
+[27-Jul-2022 08:25:56 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to Page::header() must be an instance of Activity, instance of Category given, called in C:\coursework\LinkedPHP\project-php\alpha\category.php on line 33 and defined in C:\coursework\LinkedPHP\project-php\alpha\inc\Entity\Page.class.php:8
+Stack trace:
+#0 C:\coursework\LinkedPHP\project-php\alpha\category.php(33): Page::header(Object(Category), Array)
+#1 {main}
+  thrown in C:\coursework\LinkedPHP\project-php\alpha\inc\Entity\Page.class.php on line 8
+[27-Jul-2022 08:26:29 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method Category::getTitle() in C:\coursework\LinkedPHP\project-php\alpha\inc\Entity\Page.class.php:18
+Stack trace:
+#0 C:\coursework\LinkedPHP\project-php\alpha\category.php(33): Page::header(Object(Category), Array)
+#1 {main}
+  thrown in C:\coursework\LinkedPHP\project-php\alpha\inc\Entity\Page.class.php on line 18
+[27-Jul-2022 08:26:48 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method Category::getTitle() in C:\coursework\LinkedPHP\project-php\alpha\inc\Entity\Page.class.php:18
+Stack trace:
+#0 C:\coursework\LinkedPHP\project-php\alpha\category.php(33): Page::header(Object(Category), Array)
+#1 {main}
+  thrown in C:\coursework\LinkedPHP\project-php\alpha\inc\Entity\Page.class.php on line 18
+[27-Jul-2022 08:33:39 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method Category::getLocation() in C:\coursework\LinkedPHP\project-php\alpha\category.php:50
+Stack trace:
+#0 {main}
+  thrown in C:\coursework\LinkedPHP\project-php\alpha\category.php on line 50
+[27-Jul-2022 08:36:13 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method Category::getMemberID() in C:\coursework\LinkedPHP\project-php\alpha\category.php:55
+Stack trace:
+#0 {main}
+  thrown in C:\coursework\LinkedPHP\project-php\alpha\category.php on line 55
+[27-Jul-2022 09:59:52 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function getTitle() on bool in C:\coursework\LinkedPHP\project-php\alpha\inc\Entity\Page.class.php:18
+Stack trace:
+#0 C:\coursework\LinkedPHP\project-php\alpha\category.php(33): Page::header(false, Array)
+#1 {main}
+  thrown in C:\coursework\LinkedPHP\project-php\alpha\inc\Entity\Page.class.php on line 18
+[27-Jul-2022 23:55:53 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'project.article' doesn't exist in C:\coursework\LinkedPHP\project-php\alpha\inc\Utility\PDOAgent.class.php:73
+Stack trace:
+#0 C:\coursework\LinkedPHP\project-php\alpha\inc\Utility\PDOAgent.class.php(73): PDOStatement->execute()
+#1 C:\coursework\LinkedPHP\project-php\alpha\inc\Utility\MemberDAO.class.php(49): PDOAgent->execute()
+#2 C:\coursework\LinkedPHP\project-php\alpha\member.php(30): MemberDAO::getActiclesFromMember(2)
+#3 {main}
+  thrown in C:\coursework\LinkedPHP\project-php\alpha\inc\Utility\PDOAgent.class.php on line 73
+[27-Jul-2022 23:56:37 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a.member_id' in 'where clause' in C:\coursework\LinkedPHP\project-php\alpha\inc\Utility\PDOAgent.class.php:73
+Stack trace:
+#0 C:\coursework\LinkedPHP\project-php\alpha\inc\Utility\PDOAgent.class.php(73): PDOStatement->execute()
+#1 C:\coursework\LinkedPHP\project-php\alpha\inc\Utility\MemberDAO.class.php(49): PDOAgent->execute()
+#2 C:\coursework\LinkedPHP\project-php\alpha\member.php(30): MemberDAO::getActiclesFromMember(2)
+#3 {main}
+  thrown in C:\coursework\LinkedPHP\project-php\alpha\inc\Utility\PDOAgent.class.php on line 73
+[27-Jul-2022 23:57:12 Europe/Berlin] PHP Fatal error:  Class 'User' not found in C:\coursework\LinkedPHP\project-php\alpha\inc\Utility\PDOAgent.class.php on line 91
+[27-Jul-2022 23:57:12 Europe/Berlin] PHP Stack trace:
+[27-Jul-2022 23:57:12 Europe/Berlin] PHP   1. {main}() C:\coursework\LinkedPHP\project-php\alpha\member.php:0
+[27-Jul-2022 23:57:12 Europe/Berlin] PHP   2. MemberDAO::getActiclesFromMember($memberID = 2) C:\coursework\LinkedPHP\project-php\alpha\member.php:30
+[27-Jul-2022 23:57:12 Europe/Berlin] PHP   3. PDOAgent->getResultSet() C:\coursework\LinkedPHP\project-php\alpha\inc\Utility\MemberDAO.class.php:50
+[27-Jul-2022 23:57:12 Europe/Berlin] PHP   4. PDOStatement->fetchAll($how = 8, $class_name = 'User') C:\coursework\LinkedPHP\project-php\alpha\inc\Utility\PDOAgent.class.php:91
+[27-Jul-2022 23:57:35 Europe/Berlin] PHP Fatal error:  Uncaught ErrorException: Undefined variable: category in C:\coursework\LinkedPHP\project-php\alpha\member.php:33
+Stack trace:
+#0 C:\coursework\LinkedPHP\project-php\alpha\member.php(33): handle_error(8, 'Undefined varia...', 'C:\\coursework\\L...', 33, Array)
+#1 {main}
+  thrown in C:\coursework\LinkedPHP\project-php\alpha\member.php on line 33
+[27-Jul-2022 23:58:19 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method Category::getAuthor() in C:\coursework\LinkedPHP\project-php\alpha\member.php:40
+Stack trace:
+#0 {main}
+  thrown in C:\coursework\LinkedPHP\project-php\alpha\member.php on line 40
+[27-Jul-2022 23:59:33 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method Member::getTitle() in C:\coursework\LinkedPHP\project-php\alpha\inc\Entity\Page.class.php:18
+Stack trace:
+#0 C:\coursework\LinkedPHP\project-php\alpha\member.php(33): Page::header(Object(Member), Array)
+#1 {main}
+  thrown in C:\coursework\LinkedPHP\project-php\alpha\inc\Entity\Page.class.php on line 18
+[27-Jul-2022 23:59:37 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method Member::getTitle() in C:\coursework\LinkedPHP\project-php\alpha\inc\Entity\Page.class.php:18
+Stack trace:
+#0 C:\coursework\LinkedPHP\project-php\alpha\member.php(33): Page::header(Object(Member), Array)
+#1 {main}
+  thrown in C:\coursework\LinkedPHP\project-php\alpha\inc\Entity\Page.class.php on line 18
+[28-Jul-2022 00:04:18 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method Member::getCategoryID() in C:\coursework\LinkedPHP\project-php\alpha\inc\Entity\Page.class.php:38
+Stack trace:
+#0 C:\coursework\LinkedPHP\project-php\alpha\member.php(33): Page::header(Object(Member), Array)
+#1 {main}
+  thrown in C:\coursework\LinkedPHP\project-php\alpha\inc\Entity\Page.class.php on line 38
+[28-Jul-2022 00:06:01 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to format_date() must be of the type string, null given, called in C:\coursework\LinkedPHP\project-php\alpha\member.php on line 41 and defined in C:\coursework\LinkedPHP\project-php\alpha\inc\Utility\functions.php:9
+Stack trace:
+#0 C:\coursework\LinkedPHP\project-php\alpha\member.php(41): format_date(NULL)
+#1 {main}
+  thrown in C:\coursework\LinkedPHP\project-php\alpha\inc\Utility\functions.php on line 9
+[28-Jul-2022 00:07:14 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to format_date() must be of the type string, null given, called in C:\coursework\LinkedPHP\project-php\alpha\member.php on line 41 and defined in C:\coursework\LinkedPHP\project-php\alpha\inc\Utility\functions.php:9
+Stack trace:
+#0 C:\coursework\LinkedPHP\project-php\alpha\member.php(41): format_date(NULL)
+#1 {main}
+  thrown in C:\coursework\LinkedPHP\project-php\alpha\inc\Utility\functions.php on line 9
+[28-Jul-2022 00:07:41 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method Member::getLocation() in C:\coursework\LinkedPHP\project-php\alpha\member.php:52
+Stack trace:
+#0 {main}
+  thrown in C:\coursework\LinkedPHP\project-php\alpha\member.php on line 52
+[28-Jul-2022 00:08:29 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method Member::getLocation() in C:\coursework\LinkedPHP\project-php\alpha\member.php:52
+Stack trace:
+#0 {main}
+  thrown in C:\coursework\LinkedPHP\project-php\alpha\member.php on line 52
+[28-Jul-2022 00:08:53 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method Member::getMemberID() in C:\coursework\LinkedPHP\project-php\alpha\member.php:57
+Stack trace:
+#0 {main}
+  thrown in C:\coursework\LinkedPHP\project-php\alpha\member.php on line 57
+[28-Jul-2022 00:12:02 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function getTitle() on bool in C:\coursework\LinkedPHP\project-php\alpha\inc\Entity\Page.class.php:18
+Stack trace:
+#0 C:\coursework\LinkedPHP\project-php\alpha\member.php(33): Page::header(false, Array)
+#1 {main}
+  thrown in C:\coursework\LinkedPHP\project-php\alpha\inc\Entity\Page.class.php on line 18
+[28-Jul-2022 00:53:10 Europe/Berlin] PHP Fatal error:  Uncaught ErrorException: Undefined variable: activity in C:\coursework\LinkedPHP\project-php\alpha\index.php:27
+Stack trace:
+#0 C:\coursework\LinkedPHP\project-php\alpha\index.php(27): handle_error(8, 'Undefined varia...', 'C:\\coursework\\L...', 27, Array)
+#1 {main}
+  thrown in C:\coursework\LinkedPHP\project-php\alpha\index.php on line 27
+[28-Jul-2022 00:53:46 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function getCategoryID() on null in C:\coursework\LinkedPHP\project-php\alpha\inc\Entity\Page.class.php:38
+Stack trace:
+#0 C:\coursework\LinkedPHP\project-php\alpha\index.php(27): Page::header(NULL, Array)
+#1 {main}
+  thrown in C:\coursework\LinkedPHP\project-php\alpha\inc\Entity\Page.class.php on line 38
+[28-Jul-2022 01:00:05 Europe/Berlin] PHP Fatal error:  Uncaught ErrorException: Undefined variable: article in C:\coursework\LinkedPHP\project-php\alpha\index.php:36
+Stack trace:
+#0 C:\coursework\LinkedPHP\project-php\alpha\index.php(36): handle_error(8, 'Undefined varia...', 'C:\\coursework\\L...', 36, Array)
+#1 {main}
+  thrown in C:\coursework\LinkedPHP\project-php\alpha\index.php on line 36
+[28-Jul-2022 01:00:37 Europe/Berlin] PHP Fatal error:  Uncaught ErrorException: Undefined variable: article in C:\coursework\LinkedPHP\project-php\alpha\index.php:36
+Stack trace:
+#0 C:\coursework\LinkedPHP\project-php\alpha\index.php(36): handle_error(8, 'Undefined varia...', 'C:\\coursework\\L...', 36, Array)
+#1 {main}
+  thrown in C:\coursework\LinkedPHP\project-php\alpha\index.php on line 36
+[28-Jul-2022 01:01:03 Europe/Berlin] PHP Fatal error:  Uncaught Error: Cannot access private property Activity::$title in C:\coursework\LinkedPHP\project-php\alpha\index.php:39
+Stack trace:
+#0 {main}
+  thrown in C:\coursework\LinkedPHP\project-php\alpha\index.php on line 39
+[28-Jul-2022 01:05:21 Europe/Berlin] PHP Fatal error:  Uncaught Error: Cannot access private property Activity::$title in C:\coursework\LinkedPHP\project-php\alpha\index.php:39
+Stack trace:
+#0 {main}
+  thrown in C:\coursework\LinkedPHP\project-php\alpha\index.php on line 39
+[28-Jul-2022 01:05:25 Europe/Berlin] PHP Fatal error:  Uncaught Error: Cannot access private property Activity::$title in C:\coursework\LinkedPHP\project-php\alpha\index.php:39
+Stack trace:
+#0 {main}
+  thrown in C:\coursework\LinkedPHP\project-php\alpha\index.php on line 39
+[28-Jul-2022 01:05:42 Europe/Berlin] PHP Fatal error:  Uncaught Error: Cannot access private property Activity::$title in C:\coursework\LinkedPHP\project-php\alpha\index.php:39
+Stack trace:
+#0 {main}
+  thrown in C:\coursework\LinkedPHP\project-php\alpha\index.php on line 39
+[28-Jul-2022 01:08:27 Europe/Berlin] PHP Fatal error:  Uncaught Error: Cannot access private property Activity::$location in C:\coursework\LinkedPHP\project-php\alpha\index.php:40
+Stack trace:
+#0 {main}
+  thrown in C:\coursework\LinkedPHP\project-php\alpha\index.php on line 40
+[28-Jul-2022 01:08:48 Europe/Berlin] PHP Fatal error:  Uncaught Error: Cannot access private property Activity::$categoryID in C:\coursework\LinkedPHP\project-php\alpha\index.php:43
+Stack trace:
+#0 {main}
+  thrown in C:\coursework\LinkedPHP\project-php\alpha\index.php on line 43
+[28-Jul-2022 02:41:46 Europe/Berlin] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Page::header(), 0 passed in C:\coursework\LinkedPHP\project-php\alpha\search.php on line 48 and exactly 2 expected in C:\coursework\LinkedPHP\project-php\alpha\inc\Entity\Page.class.php:8
+Stack trace:
+#0 C:\coursework\LinkedPHP\project-php\alpha\search.php(48): Page::header()
+#1 {main}
+  thrown in C:\coursework\LinkedPHP\project-php\alpha\inc\Entity\Page.class.php on line 8
+[28-Jul-2022 02:42:12 Europe/Berlin] PHP Fatal error:  Uncaught ErrorException: Undefined variable: navigation in C:\coursework\LinkedPHP\project-php\alpha\search.php:48
+Stack trace:
+#0 C:\coursework\LinkedPHP\project-php\alpha\search.php(48): handle_error(8, 'Undefined varia...', 'C:\\coursework\\L...', 48, Array)
+#1 {main}
+  thrown in C:\coursework\LinkedPHP\project-php\alpha\search.php on line 48
+[28-Jul-2022 02:42:52 Europe/Berlin] PHP Fatal error:  Uncaught ErrorException: PDOStatement::fetchColumn() expects at most 1 parameter, 2 given in C:\coursework\LinkedPHP\project-php\alpha\inc\Utility\PDOAgent.class.php:103
+Stack trace:
+#0 [internal function]: handle_error(2, 'PDOStatement::f...', 'C:\\coursework\\L...', 103, Array)
+#1 C:\coursework\LinkedPHP\project-php\alpha\inc\Utility\PDOAgent.class.php(103): PDOStatement->fetchColumn(8, 'Activity')
+#2 C:\coursework\LinkedPHP\project-php\alpha\inc\Utility\ActivityDAO.class.php(171): PDOAgent->getColumn()
+#3 C:\coursework\LinkedPHP\project-php\alpha\search.php(33): ActivityDAO::getColumns(Array)
+#4 {main}
+  thrown in C:\coursework\LinkedPHP\project-php\alpha\inc\Utility\PDOAgent.class.php on line 103
+[28-Jul-2022 02:44:26 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a.summary' in 'where clause' in C:\coursework\LinkedPHP\project-php\alpha\inc\Utility\PDOAgent.class.php:73
+Stack trace:
+#0 C:\coursework\LinkedPHP\project-php\alpha\inc\Utility\PDOAgent.class.php(73): PDOStatement->execute()
+#1 C:\coursework\LinkedPHP\project-php\alpha\inc\Utility\ActivityDAO.class.php(207): PDOAgent->execute()
+#2 C:\coursework\LinkedPHP\project-php\alpha\search.php(41): ActivityDAO::searchResults(Array)
+#3 {main}
+  thrown in C:\coursework\LinkedPHP\project-php\alpha\inc\Utility\PDOAgent.class.php on line 73
+[28-Jul-2022 02:45:24 Europe/Berlin] PHP Fatal error:  Uncaught ErrorException: Undefined variable: article in C:\coursework\LinkedPHP\project-php\alpha\search.php:69
+Stack trace:
+#0 C:\coursework\LinkedPHP\project-php\alpha\search.php(69): handle_error(8, 'Undefined varia...', 'C:\\coursework\\L...', 69, Array)
+#1 {main}
+  thrown in C:\coursework\LinkedPHP\project-php\alpha\search.php on line 69
+[28-Jul-2022 02:46:07 Europe/Berlin] PHP Fatal error:  Uncaught Error: Cannot access private property Activity::$categoryID in C:\coursework\LinkedPHP\project-php\alpha\search.php:73
+Stack trace:
+#0 {main}
+  thrown in C:\coursework\LinkedPHP\project-php\alpha\search.php on line 73
+[28-Jul-2022 02:48:43 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function getName() on bool in C:\coursework\LinkedPHP\project-php\alpha\category.php:40
+Stack trace:
+#0 {main}
+  thrown in C:\coursework\LinkedPHP\project-php\alpha\category.php on line 40
+[28-Jul-2022 02:48:53 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function getName() on bool in C:\coursework\LinkedPHP\project-php\alpha\category.php:40
+Stack trace:
+#0 {main}
+  thrown in C:\coursework\LinkedPHP\project-php\alpha\category.php on line 40
+[28-Jul-2022 02:49:12 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function getName() on bool in C:\coursework\LinkedPHP\project-php\alpha\category.php:40
+Stack trace:
+#0 {main}
+  thrown in C:\coursework\LinkedPHP\project-php\alpha\category.php on line 40
+[28-Jul-2022 02:51:00 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function getName() on bool in C:\coursework\LinkedPHP\project-php\alpha\category.php:40
+Stack trace:
+#0 {main}
+  thrown in C:\coursework\LinkedPHP\project-php\alpha\category.php on line 40
+[28-Jul-2022 02:51:23 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function getName() on bool in C:\coursework\LinkedPHP\project-php\alpha\category.php:40
+Stack trace:
+#0 {main}
+  thrown in C:\coursework\LinkedPHP\project-php\alpha\category.php on line 40
+[28-Jul-2022 02:51:37 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function getName() on bool in C:\coursework\LinkedPHP\project-php\alpha\category.php:40
+Stack trace:
+#0 {main}
+  thrown in C:\coursework\LinkedPHP\project-php\alpha\category.php on line 40
+[03-Aug-2022 02:49:30 Europe/Berlin] PHP Fatal error:  Uncaught ErrorException: Undefined variable: fullName_err in C:\coursework\LinkedPHP\project-php\alpha\memberRegister.php:108
+Stack trace:
+#0 C:\coursework\LinkedPHP\project-php\alpha\memberRegister.php(108): handle_error(8, 'Undefined varia...', 'C:\\coursework\\L...', 108, Array)
+#1 {main}
+  thrown in C:\coursework\LinkedPHP\project-php\alpha\memberRegister.php on line 108
+[03-Aug-2022 02:53:55 Europe/Berlin] PHP Fatal error:  Uncaught ErrorException: Undefined index: full_name in C:\coursework\LinkedPHP\project-php\alpha\memberRegister.php:33
+Stack trace:
+#0 C:\coursework\LinkedPHP\project-php\alpha\memberRegister.php(33): handle_error(8, 'Undefined index...', 'C:\\coursework\\L...', 33, Array)
+#1 {main}
+  thrown in C:\coursework\LinkedPHP\project-php\alpha\memberRegister.php on line 33
+[03-Aug-2022 02:55:09 Europe/Berlin] PHP Fatal error:  Uncaught ErrorException: Undefined index: confirm_password in C:\coursework\LinkedPHP\project-php\alpha\memberRegister.php:59
+Stack trace:
+#0 C:\coursework\LinkedPHP\project-php\alpha\memberRegister.php(59): handle_error(8, 'Undefined index...', 'C:\\coursework\\L...', 59, Array)
+#1 {main}
+  thrown in C:\coursework\LinkedPHP\project-php\alpha\memberRegister.php on line 59
+[03-Aug-2022 02:56:33 Europe/Berlin] PHP Fatal error:  Uncaught ErrorException: Undefined index: confirm_password in C:\coursework\LinkedPHP\project-php\alpha\memberRegister.php:62
+Stack trace:
+#0 C:\coursework\LinkedPHP\project-php\alpha\memberRegister.php(62): handle_error(8, 'Undefined index...', 'C:\\coursework\\L...', 62, Array)
+#1 {main}
+  thrown in C:\coursework\LinkedPHP\project-php\alpha\memberRegister.php on line 62
+[03-Aug-2022 02:57:01 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'full_name' cannot be null in C:\coursework\LinkedPHP\project-php\alpha\inc\Utility\PDOAgent.class.php:73
+Stack trace:
+#0 C:\coursework\LinkedPHP\project-php\alpha\inc\Utility\PDOAgent.class.php(73): PDOStatement->execute()
+#1 C:\coursework\LinkedPHP\project-php\alpha\inc\Utility\MemberDAO.class.php(89): PDOAgent->execute()
+#2 C:\coursework\LinkedPHP\project-php\alpha\memberRegister.php(81): MemberDAO::createUser(Object(Member))
+#3 {main}
+  thrown in C:\coursework\LinkedPHP\project-php\alpha\inc\Utility\PDOAgent.class.php on line 73
+[03-Aug-2022 05:10:07 Europe/Berlin] PHP Fatal error:  Uncaught ErrorException: Undefined variable: input in C:\coursework\LinkedPHP\project-php\alpha\memberRegister.php:40
+Stack trace:
+#0 C:\coursework\LinkedPHP\project-php\alpha\memberRegister.php(40): handle_error(8, 'Undefined varia...', 'C:\\coursework\\L...', 40, Array)
+#1 {main}
+  thrown in C:\coursework\LinkedPHP\project-php\alpha\memberRegister.php on line 40
+[03-Aug-2022 05:11:06 Europe/Berlin] PHP Fatal error:  Uncaught ErrorException: Undefined index: username in C:\coursework\LinkedPHP\project-php\alpha\memberRegister.php:40
+Stack trace:
+#0 C:\coursework\LinkedPHP\project-php\alpha\memberRegister.php(40): handle_error(8, 'Undefined index...', 'C:\\coursework\\L...', 40, Array)
+#1 {main}
+  thrown in C:\coursework\LinkedPHP\project-php\alpha\memberRegister.php on line 40
+[03-Aug-2022 05:11:51 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[21S01]: Insert value list does not match column list: 1136 Column count doesn't match value count at row 1 in C:\coursework\LinkedPHP\project-php\alpha\inc\Utility\PDOAgent.class.php:73
+Stack trace:
+#0 C:\coursework\LinkedPHP\project-php\alpha\inc\Utility\PDOAgent.class.php(73): PDOStatement->execute()
+#1 C:\coursework\LinkedPHP\project-php\alpha\inc\Utility\MemberDAO.class.php(99): PDOAgent->execute()
+#2 C:\coursework\LinkedPHP\project-php\alpha\memberRegister.php(86): MemberDAO::createUser(Object(Member))
+#3 {main}
+  thrown in C:\coursework\LinkedPHP\project-php\alpha\inc\Utility\PDOAgent.class.php on line 73
+[04-Aug-2022 01:15:10 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on string in C:\coursework\LinkedPHP\project-php\alpha\inc\Utility\PDOAgent.class.php:46
+Stack trace:
+#0 C:\coursework\LinkedPHP\project-php\alpha\inc\Utility\MemberDAO.class.php(32): PDOAgent->query('SELECT * FROM m...')
+#1 C:\coursework\LinkedPHP\project-php\alpha\memberLogin.php(21): MemberDAO::getMemberByUsername('simon')
+#2 {main}
+  thrown in C:\coursework\LinkedPHP\project-php\alpha\inc\Utility\PDOAgent.class.php on line 46
+[04-Aug-2022 09:15:45 Europe/Berlin] PHP Fatal error:  Uncaught ErrorException: Undefined variable: err in C:\coursework\LinkedPHP\project-php\alpha\inc\Entity\Page.class.php:160
+Stack trace:
+#0 C:\coursework\LinkedPHP\project-php\alpha\inc\Entity\Page.class.php(160): handle_error(8, 'Undefined varia...', 'C:\\coursework\\L...', 160, Array)
+#1 C:\coursework\LinkedPHP\project-php\alpha\memberLogin.php(49): Page::showLogin()
+#2 {main}
+  thrown in C:\coursework\LinkedPHP\project-php\alpha\inc\Entity\Page.class.php on line 160
