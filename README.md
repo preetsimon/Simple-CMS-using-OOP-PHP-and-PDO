@@ -1,6 +1,7 @@
 # Simple-CMS-using-OOP-PHP-and-PDO
 Project Description
 My project is a Content Management Web App that displays the blog acticles about outdoor activities near Vancouver,BC. The web site hosts outdoor activity blogs that can be categorized in four fields namely hiking, skiing, boating and biking. Each category contains blogs that contain details like title, location, content, image and author. All articles are loaded dynamically from the database using PHP and SQL. The web-apps functionality depends on the type of login credentials, casual users or admin.
+![Alt text](./projectPHP.gif)
 
 The user must register\login to gain access to the website content. The user is allowed the following privelleges:
 - Read a specific article in detail by clicking on it. 
